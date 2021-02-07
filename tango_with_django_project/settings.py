@@ -16,7 +16,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Builds template path
-TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates') 
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+
+print(BASE_DIR)
+print(TEMPLATE_DIR)
 
 # Builds static path
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
